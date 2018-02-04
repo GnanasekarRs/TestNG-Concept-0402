@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59" started-at="2018-02-04T18:16:30Z" finished-at="2018-02-04T18:16:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="59" started-at="2018-02-04T18:16:30Z" finished-at="2018-02-04T18:16:30Z">
+      <class name="Testing.TestnG">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:Testing.TestnG@23ceabc1]" name="Demo" duration-ms="4" started-at="2018-02-04T23:46:30Z" finished-at="2018-02-04T23:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="Demo1()[pri:0, instance:Testing.TestnG@23ceabc1]" name="Demo1" duration-ms="2" started-at="2018-02-04T23:46:30Z" finished-at="2018-02-04T23:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+      </class> <!-- Testing.TestnG -->
+      <class name="Testing.TestnG1">
+        <test-method status="PASS" signature="display()[pri:0, instance:Testing.TestnG1@215be6bb]" name="display" duration-ms="14" started-at="2018-02-04T23:46:30Z" finished-at="2018-02-04T23:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+      </class> <!-- Testing.TestnG1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
