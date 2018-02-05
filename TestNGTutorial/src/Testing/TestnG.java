@@ -1,5 +1,7 @@
 package Testing;
 
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
@@ -8,11 +10,42 @@ public class TestnG
 	@Test
     void Demo() 
 	{
-       System.out.println("TestNG Configuration");
+       System.out.println("Method1");
     }
 	@Test
-	void Demo1()
+	void Demo2()
 	{
-		System.out.println("Working");
+		System.out.println("Method2");
 	}
+	@AfterTest  //After test Supports through out the Project
+	void Demo3()
+	{
+		System.out.println("Method3");
+	}
+	@Test
+	void Demo4()
+	{
+		System.out.println("Method4");
+	}
+	@Test
+	void Demo5()
+	{
+		System.out.println("Method5");
+	}
+	@Test
+	void Demo6()
+	{
+		System.out.println("Method6");
+	}
+	@Test
+	void Demo7()
+	{
+		System.out.println("Method7");
+	}
+	@Test
+	void Demo8()
+	{
+		System.out.println("Method8");
+	}
+	
 }

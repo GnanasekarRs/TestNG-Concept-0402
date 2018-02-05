@@ -1,27 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="1" total="12" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="59" started-at="2018-02-04T18:16:30Z" finished-at="2018-02-04T18:16:30Z">
+  <suite name="Suite 1" duration-ms="114" started-at="2018-02-05T13:45:47Z" finished-at="2018-02-05T13:45:47Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="59" started-at="2018-02-04T18:16:30Z" finished-at="2018-02-04T18:16:30Z">
+    <test name="Test1" duration-ms="70" started-at="2018-02-05T13:45:47Z" finished-at="2018-02-05T13:45:47Z">
       <class name="Testing.TestnG">
-        <test-method status="PASS" signature="Demo()[pri:0, instance:Testing.TestnG@23ceabc1]" name="Demo" duration-ms="4" started-at="2018-02-04T23:46:30Z" finished-at="2018-02-04T23:46:30Z">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:Testing.TestnG@7dc7cbad]" name="Demo" duration-ms="9" started-at="2018-02-05T19:15:47Z" finished-at="2018-02-05T19:15:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
-        <test-method status="PASS" signature="Demo1()[pri:0, instance:Testing.TestnG@23ceabc1]" name="Demo1" duration-ms="2" started-at="2018-02-04T23:46:30Z" finished-at="2018-02-04T23:46:30Z">
+        <test-method status="PASS" signature="Demo2()[pri:0, instance:Testing.TestnG@7dc7cbad]" name="Demo2" duration-ms="2" started-at="2018-02-05T19:15:47Z" finished-at="2018-02-05T19:15:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Demo1 -->
+        </test-method> <!-- Demo2 -->
+        <test-method status="PASS" signature="Demo4()[pri:0, instance:Testing.TestnG@7dc7cbad]" name="Demo4" duration-ms="2" started-at="2018-02-05T19:15:47Z" finished-at="2018-02-05T19:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo4 -->
+        <test-method status="PASS" signature="Demo5()[pri:0, instance:Testing.TestnG@7dc7cbad]" name="Demo5" duration-ms="1" started-at="2018-02-05T19:15:47Z" finished-at="2018-02-05T19:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo5 -->
+        <test-method status="PASS" signature="Demo6()[pri:0, instance:Testing.TestnG@7dc7cbad]" name="Demo6" duration-ms="2" started-at="2018-02-05T19:15:47Z" finished-at="2018-02-05T19:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo6 -->
+        <test-method status="PASS" signature="Demo7()[pri:0, instance:Testing.TestnG@7dc7cbad]" name="Demo7" duration-ms="2" started-at="2018-02-05T19:15:47Z" finished-at="2018-02-05T19:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo7 -->
+        <test-method status="PASS" signature="Demo8()[pri:0, instance:Testing.TestnG@7dc7cbad]" name="Demo8" duration-ms="2" started-at="2018-02-05T19:15:47Z" finished-at="2018-02-05T19:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo8 -->
+        <test-method status="PASS" signature="Demo3()[pri:0, instance:Testing.TestnG@7dc7cbad]" name="Demo3" is-config="true" duration-ms="0" started-at="2018-02-05T19:15:47Z" finished-at="2018-02-05T19:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
       </class> <!-- Testing.TestnG -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="15" started-at="2018-02-05T13:45:47Z" finished-at="2018-02-05T13:45:47Z">
       <class name="Testing.TestnG1">
-        <test-method status="PASS" signature="display()[pri:0, instance:Testing.TestnG1@215be6bb]" name="display" duration-ms="14" started-at="2018-02-04T23:46:30Z" finished-at="2018-02-04T23:46:30Z">
+        <test-method status="PASS" signature="display1()[pri:0, instance:Testing.TestnG1@523884b2]" name="display1" is-config="true" duration-ms="0" started-at="2018-02-05T19:15:47Z" finished-at="2018-02-05T19:15:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- display -->
+        </test-method> <!-- display1 -->
+        <test-method status="PASS" signature="display2()[pri:0, instance:Testing.TestnG1@523884b2]" name="display2" duration-ms="1" started-at="2018-02-05T19:15:47Z" finished-at="2018-02-05T19:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display2 -->
+        <test-method status="PASS" signature="display3()[pri:0, instance:Testing.TestnG1@523884b2]" name="display3" duration-ms="1" started-at="2018-02-05T19:15:47Z" finished-at="2018-02-05T19:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display3 -->
+        <test-method status="PASS" signature="display4()[pri:0, instance:Testing.TestnG1@523884b2]" name="display4" duration-ms="1" started-at="2018-02-05T19:15:47Z" finished-at="2018-02-05T19:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display4 -->
+        <test-method status="PASS" signature="display5()[pri:0, instance:Testing.TestnG1@523884b2]" name="display5" duration-ms="1" started-at="2018-02-05T19:15:47Z" finished-at="2018-02-05T19:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display5 -->
       </class> <!-- Testing.TestnG1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite 1 -->
 </testng-results>
