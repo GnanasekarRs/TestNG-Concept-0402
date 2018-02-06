@@ -5,7 +5,7 @@
     <classes>
       <class name="Testing.TestnG">
       <methods>   <!-- Include only include a Method(Demo) in that File -->
-      <include name="Demo8"/>
+      <exclude name="Demo8"/>
       </methods>
       </class>
     </classes>
@@ -20,7 +20,7 @@
   </class>
   </classes>
   </test>
-  
+ 
   
 </suite> <!-- Suite -->
 

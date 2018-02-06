@@ -1,12 +1,26 @@
 package Testing;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
 public class TestnG
 {
+	@AfterMethod
+	void BeforeMethodAnnotations()
+	{
+		System.out.println("After Method Annotations");
+	}
+	
+	@AfterTest
+	void PostTest()
+	{
+		System.out.println("Post Deletion Completed");
+	}
 	@Test
     void Demo() 
 	{
@@ -46,6 +60,11 @@ public class TestnG
 	void Demo8()
 	{
 		System.out.println("Method8");
+	}
+	@AfterSuite
+	void end()
+	{
+		System.out.println("END");
 	}
 	
 }

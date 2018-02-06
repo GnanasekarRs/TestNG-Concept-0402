@@ -15,13 +15,11 @@
   <classes>
   <class name="Testing.TestnG1">
   <methods>
-  <exclude name="display6"/>
+  <include name="display6"/>
   </methods>
   </class>
   </classes>
-  </test>
-  
-  
+  </test> 
 </suite> <!-- Suite -->
 
 <!-- To run Both Files  -->
