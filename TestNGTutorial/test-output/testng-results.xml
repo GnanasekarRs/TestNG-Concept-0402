@@ -1,199 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+<testng-results skipped="0" failed="0" ignored="1" total="21" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite 1" duration-ms="101" started-at="2018-02-06T14:28:33Z" finished-at="2018-02-06T14:28:33Z">
+  <suite name="Suite 1" duration-ms="132" started-at="2018-02-07T11:06:10Z" finished-at="2018-02-07T11:06:10Z">
     <groups>
     </groups>
-    <test name="Normal TestNG Call" duration-ms="101" started-at="2018-02-06T14:28:33Z" finished-at="2018-02-06T14:28:33Z">
+    <test name="Split java class TestNG.java Call" duration-ms="47" started-at="2018-02-07T11:06:10Z" finished-at="2018-02-07T11:06:10Z">
       <class name="Testing.TestnG">
-        <test-method status="PASS" signature="Demo()[pri:0, instance:Testing.TestnG@457e2f02]" name="Demo" duration-ms="6" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG@457e2f02]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="Demo2()[pri:0, instance:Testing.TestnG@457e2f02]" name="Demo2" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="Demo2()[pri:0, instance:Testing.TestnG@548a9f61]" name="Demo2" duration-ms="6" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo2 -->
-        <test-method status="PASS" signature="Demo4()[pri:0, instance:Testing.TestnG@457e2f02]" name="Demo4" duration-ms="2" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG@548a9f61]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodAnnotations -->
+        <test-method status="PASS" signature="Demo4()[pri:0, instance:Testing.TestnG@548a9f61]" name="Demo4" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo4 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG@457e2f02]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG@548a9f61]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG@457e2f02]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="Demo5()[pri:0, instance:Testing.TestnG@457e2f02]" name="Demo5" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="Demo5()[pri:0, instance:Testing.TestnG@548a9f61]" name="Demo5" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo5 -->
-        <test-method status="PASS" signature="Demo6()[pri:0, instance:Testing.TestnG@457e2f02]" name="Demo6" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG@548a9f61]" name="BeforeMethodAnnotations" is-config="true" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodAnnotations -->
+        <test-method status="PASS" signature="Demo6()[pri:0, instance:Testing.TestnG@548a9f61]" name="Demo6" duration-ms="2" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo6 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG@457e2f02]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG@548a9f61]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG@457e2f02]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="Demo7()[pri:0, instance:Testing.TestnG@457e2f02]" name="Demo7" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="Demo7()[pri:0, instance:Testing.TestnG@548a9f61]" name="Demo7" duration-ms="2" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo7 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG@457e2f02]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG@548a9f61]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="Demo8()[pri:0, instance:Testing.TestnG@457e2f02]" name="Demo8" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="Demo8()[pri:0, instance:Testing.TestnG@548a9f61]" name="Demo8" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo8 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG@457e2f02]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="Afterclassmethod()[pri:0, instance:Testing.TestnG@548a9f61]" name="Afterclassmethod" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclassmethod -->
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG@548a9f61]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="Demo3()[pri:0, instance:Testing.TestnG@457e2f02]" name="Demo3" is-config="true" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo3 -->
-        <test-method status="PASS" signature="PostTest()[pri:0, instance:Testing.TestnG@457e2f02]" name="PostTest" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="PostTest()[pri:0, instance:Testing.TestnG@548a9f61]" name="PostTest" is-config="true" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostTest -->
-        <test-method status="PASS" signature="end()[pri:0, instance:Testing.TestnG@457e2f02]" name="end" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="Demo3()[pri:0, instance:Testing.TestnG@548a9f61]" name="Demo3" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+      </class> <!-- Testing.TestnG -->
+    </test> <!-- Split java class TestNG.java Call -->
+    <test name="Split java class TesNG1.java call" duration-ms="57" started-at="2018-02-07T11:06:10Z" finished-at="2018-02-07T11:06:10Z">
+      <class name="Testing.TestnG">
+        <test-method status="PASS" signature="end()[pri:0, instance:Testing.TestnG@548a9f61]" name="end" is-config="true" duration-ms="2" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- Testing.TestnG -->
       <class name="Testing.TestnG1">
-        <test-method status="PASS" signature="begin()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="begin" is-config="true" duration-ms="8" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="begin()[pri:0, instance:Testing.TestnG1@3532ec19]" name="begin" is-config="true" duration-ms="9" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- begin -->
-        <test-method status="PASS" signature="PrerequitesMethod()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="PrerequitesMethod" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="PrerequitesMethod()[pri:0, instance:Testing.TestnG1@3532ec19]" name="PrerequitesMethod" is-config="true" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PrerequitesMethod -->
-        <test-method status="PASS" signature="display1()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="display1" is-config="true" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="display1()[pri:0, instance:Testing.TestnG1@3532ec19]" name="display1" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- display1 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="Beforeclassmethod()[pri:0, instance:Testing.TestnG1@3532ec19]" name="Beforeclassmethod" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="Filter1()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="Filter1" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        </test-method> <!-- Beforeclassmethod -->
+        <test-method status="PASS" signature="Filter1()[pri:0, instance:Testing.TestnG1@3532ec19]" name="Filter1" duration-ms="2" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Filter1 -->
-        <test-method status="PASS" signature="Filter2()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="Filter2" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@3532ec19]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodAnnotations -->
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@3532ec19]" name="BeforeMethodAnnotations" is-config="true" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodAnnotations -->
+        <test-method status="PASS" signature="Filter2()[pri:0, instance:Testing.TestnG1@3532ec19]" name="Filter2" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Filter2 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@3532ec19]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="Filter3()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="Filter3" duration-ms="7" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="Filter3()[pri:0, instance:Testing.TestnG1@3532ec19]" name="Filter3" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Filter3 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@3532ec19]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="BeforeMethodAnnotations" is-config="true" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="Filter4()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="Filter4" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="Filter4()[pri:0, instance:Testing.TestnG1@3532ec19]" name="Filter4" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Filter4 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="BeforeMethodAnnotations" is-config="true" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="display2()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="display2" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- display2 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="display3()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="display3" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- display3 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="BeforeMethodAnnotations" is-config="true" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="display4()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="display4" duration-ms="2" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="display4()[pri:0, instance:Testing.TestnG1@3532ec19]" name="display4" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- display4 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@3532ec19]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="display5()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="display5" duration-ms="2" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@3532ec19]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodAnnotations -->
+        <test-method status="PASS" signature="display5()[pri:0, instance:Testing.TestnG1@3532ec19]" name="display5" duration-ms="2" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- display5 -->
-        <test-method status="PASS" signature="display6()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="display6" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- display6 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="BeforeMethodAnnotations" is-config="true" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="otherMethod1()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="otherMethod1" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="otherMethod1()[pri:0, instance:Testing.TestnG1@3532ec19]" name="otherMethod1" duration-ms="2" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otherMethod1 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@3532ec19]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="otherMethod2()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="otherMethod2" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="otherMethod2()[pri:0, instance:Testing.TestnG1@3532ec19]" name="otherMethod2" duration-ms="2" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otherMethod2 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="BeforeMethodAnnotations" is-config="true" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@3532ec19]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="otherMethod3()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="otherMethod3" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@3532ec19]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodAnnotations -->
+        <test-method status="PASS" signature="otherMethod3()[pri:0, instance:Testing.TestnG1@3532ec19]" name="otherMethod3" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otherMethod3 -->
-        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@3532ec19]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethodAnnotations -->
-        <test-method status="PASS" signature="otherMethod4()[pri:0, instance:Testing.TestnG1@4cc0edeb]" name="otherMethod4" duration-ms="1" started-at="2018-02-06T19:58:33Z" finished-at="2018-02-06T19:58:33Z">
+        <test-method status="PASS" signature="otherMethod4()[pri:0, instance:Testing.TestnG1@3532ec19]" name="otherMethod4" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- otherMethod4 -->
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@3532ec19]" name="BeforeMethodAnnotations" is-config="true" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodAnnotations -->
+        <test-method status="PASS" signature="display2()[pri:0, instance:Testing.TestnG1@3532ec19]" name="display2" duration-ms="2" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display2 -->
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@3532ec19]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodAnnotations -->
+        <test-method status="PASS" signature="display3()[pri:0, instance:Testing.TestnG1@3532ec19]" name="display3" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display3 -->
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@3532ec19]" name="BeforeMethodAnnotations" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodAnnotations -->
+        <test-method status="PASS" signature="display6()[pri:0, instance:Testing.TestnG1@3532ec19]" name="display6" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display6 -->
+        <test-method status="PASS" signature="BeforeMethodAnnotations()[pri:0, instance:Testing.TestnG1@3532ec19]" name="BeforeMethodAnnotations" is-config="true" duration-ms="1" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodAnnotations -->
+        <test-method status="PASS" signature="dependConcept()[pri:0, instance:Testing.TestnG1@3532ec19]" name="dependConcept" duration-ms="2" started-at="2018-02-07T16:36:10Z" depends-on-methods="Testing.TestnG1.Filter1, Testing.TestnG1.Filter4" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dependConcept -->
+        <test-method status="PASS" signature="Afterclassmethod()[pri:0, instance:Testing.TestnG1@3532ec19]" name="Afterclassmethod" is-config="true" duration-ms="0" started-at="2018-02-07T16:36:10Z" finished-at="2018-02-07T16:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclassmethod -->
       </class> <!-- Testing.TestnG1 -->
-    </test> <!-- Normal TestNG Call -->
+    </test> <!-- Split java class TesNG1.java call -->
   </suite> <!-- Suite 1 -->
 </testng-results>

@@ -1,5 +1,6 @@
 package Testing;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -21,12 +22,13 @@ public class TestnG
 	{
 		System.out.println("Post Deletion Completed");
 	}
-	@Test
+	@Test(enabled=false)  
+	//this method will won't execute 
     void Demo() 
 	{
        System.out.println("Method1");
     }
-	@Test
+	@Test(timeOut=4000)
 	void Demo2()
 	{
 		System.out.println("Method2");
@@ -61,10 +63,16 @@ public class TestnG
 	{
 		System.out.println("Method8");
 	}
-	@AfterSuite
+	@AfterSuite(groups= {"Smoke"})
 	void end()
 	{
 		System.out.println("END");
 	}
+	@AfterClass
+	void Afterclassmethod()
+	{
+		System.out.println("After Class");
+	}
+	
 	
 }

@@ -1,6 +1,8 @@
 package Testing;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -8,6 +10,13 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
 public class TestnG1 {
+	
+	@BeforeClass   
+	//This one will execute Before whole class starts and then MEthods will gets Executed from the class
+	void Beforeclassmethod()
+	{
+		System.out.println("Before Class");
+	}
 	
 	@BeforeMethod
 	void BeforeMethodAnnotations()
@@ -84,16 +93,29 @@ public class TestnG1 {
 	{
 		System.out.println("OtherMethod4");
 	}
+	
 	@BeforeTest
 	void PrerequitesMethod()
 	{
 		System.out.println("Pre-Delection Completed");
 	}
-	@BeforeSuite
+	@BeforeSuite(groups= {"Smoke"})
 	void begin()
 	{
 		System.out.println("Begin's");
 	}
-	
+	@AfterClass   
+	//After all methods gets executed from the class atlast it will get  executed and this one is class level
+	void Afterclassmethod()
+	{
+		System.out.println("After Class");
+	}
+    @Test(dependsOnMethods={"Filter1","Filter4"})
+    //Here Filter1 1st Executed then after this method get executed at last!!!!!!!!!!
+    void dependConcept()
+    {
+	System.out.println("Dependency Method");
+    }
 
 }
+
